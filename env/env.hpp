@@ -1,4 +1,4 @@
-#include <vector>
+#include <list>
 #include <string>
 #include "../types/paobject.hpp"
 
@@ -7,7 +7,7 @@
 
 class Env{
 	private:
-		std::vector<PAObject> environment;
+		std::list<PAObject> environment;
 
 	public:
 		explicit Env();
